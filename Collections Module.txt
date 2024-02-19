@@ -1,0 +1,9 @@
+from collections import Counter
+
+def count_trees(forest):
+    return Counter(forest)
+
+# Example usage:
+forest = ["oak", "pine", "oak", "maple", "birch", "oak"]
+tree_counts = count_trees(forest)
+print("Tree counts in the forest:", tree_counts)
